@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <form action="#" method="post">
+
+     <div>
+         <p>Имя</p>
+         <input tabinex="1" placeholder="Имя" name="username" type="text" />
+     </div>    
+     <div>
+        <p>Пароль</p>
+        <input tabinex="2" name="userpass" type="password" />
+    </div> 
+    <div>
+        <p>Телефон</p>
+        <input tabinex="3" name="userphone" type="tel" />
+    </div>
+
+    <div>
+        <p>Пол</p>
+        <div>
+          <input tabinex="4" name="usergender" type="radio" value="male" /> Мужской
+        </div>
+        <div>
+          <input tabinex="4" name="usergender" type="radio" value="female" /> Женский
+        </div>
+    </div>
+
+    <div>
+        <p>Имущество</p>
+        <div>
+          <input checked tabinex="5" name="bike" type="checkbox" value="yes" /> Велосипед
+        </div>
+        <div>
+          <input tabinex="6" name="car" type="checkbox" value="yes" /> Машина
+        </div>
+        <div>
+            <input disabled tabinex="7" name="house" type="checkbox" value="yes" /> Дом
+        </div>
+    </div>
+
+    <div>
+        <p>Дополнительная информация</p>
+        <textarea tabinex="8" name="text"></textarea>
+    </div>
+    <div>
+            <p>Прикрепить фото</p>
+            <input tabinex="9" type="file" />
+    </div>
+    <div>
+        <p>Люимый цвет</p>
+
+        <select  tabinex="10" name="color">
+            <option value="red">Красный</option>
+            <option value="red">Зеленый</option>
+            <option selected value="red">Желтый</option>
+        </select>
+    </div>
+    <div>
+        <p>Действия</p>
+        <button  tabinex="11" type="submit">Отправить</button>
+        <button  tabinex="12" type="reset">Очистить</button>
+    </div>
+    </form>
+</body>
+</html>
